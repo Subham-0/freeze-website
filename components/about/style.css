@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    height: 120PX;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40PX 300px;
+
+    background-color: #EEEBEC;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    
+}
+
+.nav-links li {
+    list-style: none;
+    /* display: inline-block; */
+    color: #7A6666;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-right: 10px; */
+    
+
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #7A6666;
+}
+
+.abouthead{
+    height: 90PX;
+    width: 100%;
+    background-color: #C8C10D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 20px 500PX;
+    font-size: xx-large;
+
+}
+
+.bg_header_image{
+    background-image: url(/Temlets/freeeze/images/bg-header-about.jpg);
+    background-color: #EBEBED;
+    height: 220px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.container{
+    height: 100vh;
+    display: flex;
+    background-color: violet;
+    margin: 50px 300px;
+    justify-content: center;
+}
+.leftcontainer{
+    width: 65%;
+   
+    background-color:#EFEDEE;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.heading h3{
+    color:#CB3362;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 100;
+    text-align: center;
+    line-height: 50px;
+}
+.leftcontainer .subheading p{
+    padding: 0 10px;
+    line-height: 40px;
+    color:#7A6666;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.rightcontainer{
+   
+    background-color: white;
+    padding: 0 30px;
+    
+}
+.rightsubcontainer .heading h3{
+    text-align: start;
+    
+    line-height: 80px;
+    
+}
+
+.rightsubcontainer .subheading p{
+    
+   
+    color:#7A6666;
+    font-family: sans-serif;
+    text-align:start;
+    line-height: 25px;
+    
+    
+}
+
+.container  a{
+   
+    color:#7A6666;
+}
+
+
+
+footer {
+    height: 250px;
+
+    background-color: #CB3362;
+
+    display: grid;
+    justify-content: center;
+
+}
+
+.footer{
+   
+    margin: 50px 0;
+    height: 100px;
+}
+
+.sociallinks {
+    display: flex;
+   column-gap: 30px;
+   height: 50px;
+
+   justify-content: center;   
+
+}
+
+.copyrigth{
+   
+    color: white;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+.sociallinks a img {
+    
+    width: 30px;
+
+}
+
+
