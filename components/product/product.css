@@ -38,7 +38,6 @@
 }
 
 .abouthead{
-    
     width: 100%;
     background-color: #C8C10D;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,128 +47,56 @@
     font-size: xx-large;
 
 }
-.mapimg{
-    background-image: url(../../images/map.jpg);
-    height: 250px;
+.container{
+    
+    height: 300px;
+    margin: 50px 300px;
     display: flex;
-    align-items: center;
   
+    
 }
-.location-container{
-    height: 150px;
-   
-    margin: 0px 350px;
-    padding: 0px 100px;
+.description{
+  
+    height: 300px;
+   width: 25%;
+   margin: 0px 25px;
+   padding: 70px 0px;
    display: flex;
-   flex-direction: row;
-   background-color: #ffffffaf;
+   flex-direction: column;
+   gap: 30px;
+
 }
-.loc-img-box{
-    background-image: url(../../images/check-in.png);
+.elements{
+ 
+    height: 300px;
+    width: 75%;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 150px;
-    
-    
-    width: 20%;
-    
-   
+    padding-bottom: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
-.loc-details{
-   margin: 30px 0px;
-    height: 90px;
-   
-    width: 80%;  
-   
-}
- h3{
-    font-size: x-large;
-    font-weight: 400;
+.elements h3{
+    font-size: large;
+    font-weight: 300;
 color: #CB3362;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
 }
- p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    color:#7A6666;
-    line-height: 22px;
-    
-}
-
-.contact-container{
- 
-    height: 100vh;
-    margin: 0px 300px;
-    display: flex;
-    
-}
-.leftcontainer{
-  
-    height: 80vh;
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 25px;
-    
-}
-.rightcontainer{
-   
-    height: 30vh;
-    width: 25vw;
-    margin: 40px 25px;
-    text-align: center;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-color: #EFEDEE;
-}
-.rightcontainer p{
-    margin: 0px 15px;
-}
-form{
-    display: flex;
-    flex-direction: column;
-
-}
-input{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    color:#7A6666;
-    height: 40px;
-    margin: 5px 0px;
-    padding: 5px;
-    border: 1px solid #7A6666;
-    border-radius: 2px;
-}
-textarea{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    color:#7A6666;
-    height: 250px;
-    margin: 5px 0px;
-    padding: 5px;
-    border: 1px solid #7A6666;
-    border-radius: 2px;
-    resize: none;
-}
-button{
-    background-color: white;
+.description h1{
+    font-family:fantasy;
+    font-size: 27px;
+    font-weight: 400;
     color: #CB3362;
-    border: 2px solid #CB3362;
-    padding: 10px;
-    cursor: pointer;
-    width: 150px;
-    border-radius: 2px;
-    font-size: 16px;
-    font-weight: 700;
+    text-align: center;
 }
-button:hover{
-    background-color:#C8C10D;
-   
+.description p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color:#7A6666;
+    line-height: 20px;
+    text-align: justify;
 }
-
 footer {
     height: 250px;
 
@@ -213,6 +140,7 @@ footer {
 a{
     color:#7A6666;
 }
+
 
 
 
